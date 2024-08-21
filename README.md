@@ -43,5 +43,3 @@ Para obtener más información sobre las herramientas y tecnologías utilizadas 
 
 - [Guía de Vue.js](https://vuejs.org/guide/) - Una completa guía sobre Vue.js, el framework utilizado en este proyecto.
 - [Guía de Vite](https://vitejs.dev/guide/) - Documentación para Vite, el bundler utilizado para compilar y servir el proyecto.
-
-# DE_IntroAComponentesWebYVueJs
