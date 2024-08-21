@@ -82,7 +82,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 body {
   display: flex;
   justify-content: center;
@@ -90,7 +90,6 @@ body {
   height: 60vh;
   font-size: 10px;
   font-family: sans-serif;
-  margin: 0;
 }
 
 .carnet {
@@ -104,55 +103,40 @@ body {
   box-shadow: 0px 0px 10px 2px black;
 }
 
-aside {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-right: 15px;
-  font-size: 8px;
-}
-
-aside span {
-  color: black;
-}
-
 aside div {
   display: flex;
-  align-items: center;
-  margin-bottom: 0;
 }
 
-aside>img {
+aside > img {
+  margin-top: 15px;
   width: 100%;
-  height: 100%;
-  margin-top: 10px;
 }
 
 aside p {
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
-  margin-top: 10px;
-  color: black;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  padding: 0px 14px;
 }
 
-main header {
-  text-align: left;
-  margin: 0;
+main article {
+  margin: 4px 0px;
+}
+
+main article header {
+  font-weight: bold;
+  color: #0235a4;
+  font-size: 8px;
 }
 
 main header p {
   font-size: 20px;
+  margin: 0;
   font-weight: bold;
   color: #0235a4;
-  margin: -10px 0;
 }
 
 main header span {
@@ -160,22 +144,17 @@ main header span {
   color: #399be1;
 }
 
-main section article header {
-  font-weight: bold;
-  color: #0235a4;
-  font-size: 8px;
-  margin-bottom: -9px;
+main section {
+  margin-top: 10px;
 }
 
 main section article span {
   font-size: 13px;
   font-weight: 600;
-  color: black;
 }
 
 main section .grid-2-colums {
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 2px;
 }
 </style>
