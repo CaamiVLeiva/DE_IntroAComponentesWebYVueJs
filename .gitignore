@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# IDE specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Vite specific files
+.vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Cypress directories
+/cypress/videos/
+/cypress/screenshots/
+
+# Test coverage
+coverage/
+
+# ESLint and Prettier configuration files
+.eslintrc.cjs
+.eslintignore
+.prettierrc
+.prettierignore
+.prettierrc.json
+
+# Misc
+.DS_Store
