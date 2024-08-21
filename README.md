@@ -7,10 +7,6 @@ Componente de carnet de identidad en Vue.js que muestra información personal en
 - Muestra detalles como RUN, apellidos, nombres, nacionalidad y fechas importantes.
 - Diseño estilizado con CSS para un carnet de identidad visualmente atractivo.
 
-## Demo
-
-Puedes ver el componente en acción en el [Demo en vivo](#) (reemplaza el `#` con el enlace a tu demo si tienes uno).
-
 ## Instalación
 
 Para comenzar con el proyecto, sigue estos pasos:
