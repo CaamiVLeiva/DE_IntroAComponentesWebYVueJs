@@ -17,13 +17,7 @@ Para comenzar con el proyecto, sigue estos pasos:
     git clone https://github.com/CaamiVLeiva/DE_IntroAComponentesWebYVueJs.git
     ```
 
-2. **Navega al directorio del proyecto:**
-
-    ```bash
-    cd carnet-vue
-    ```
-
-3. **Instala las dependencias:**
+2. **Instala las dependencias:**
 
     ```bash
     npm install
